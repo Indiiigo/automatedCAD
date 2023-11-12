@@ -44,18 +44,28 @@ Run the code in autocad_vinfo_commands.txt
 
 ### LINKS TO EXTERNAL DATASETS
 
-sexism
+#### sexism
 
 ID	https://search.gesis.org/research_data/SDN-10.7802-2251
+
 OOD1	https://github.com/fhstp/EXIST2022/tree/main/data/EXIST2022_orig
+
 OOD2	https://github.com/ellamguest/online-misogyny-eacl2021/tree/main/data
+
 OOD3	https://github.com/rewire-online/edos
+
 Hatecheck (HC)	https://github.com/paul-rottger/hatecheck-data
 
-hatespeech
+#### hate speech
+
 ID	https://github.com/bvidgen/Dynamically-Generated-Hate-Speech-Dataset
+
 OOD1	https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech/blob/master/data/gab.csv
+
 OOD2	http://hatespeech.di.unito.it/hateval.html
+
 OOD3	https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech/blob/master/data/reddit.csv
+
 OOD4	https://hasocfire.github.io/hasoc/2020/dataset.html
+
 Hatecheck (HC)	https://github.com/paul-rottger/hatecheck-data
