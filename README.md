@@ -4,6 +4,12 @@ This repository contains materials automatically generate CAD using Polyjuice, C
 
 *Sen, I., Assenmacher, D., Samory, M., Augenstein, I., Aalst, W.V., & Wagner, C. (2023). People Make Better Edits: Measuring the Efficacy of LLM-Generated Counterfactually Augmented Data for Harmful Language Detection. ArXiv, abs/2311.01270. To Appear at EMNLP'23*
 
+### Data
+
+We make the automatically generated counterfactuals available in 'data' folder. Due to licensing restrictions, we cannot include the text of the other datasets in this repository. Therefore, the text columns to be labeled in the in-domain and out-of-domain datasets are not included in the data files. However, we include:
+- the links to where they can be downloaded from (at the end of this page)
+- the labels given to these items by our classifiers and ChatGPT. These can be found in the 'results/intermediate/' folder.
+
 ### Code structure
 
 [1] CAD generation
@@ -12,14 +18,14 @@ Polyjuice: generate_polyjuice_cad.py
 ChatGPT: chatgpt CAD generation.ipynb
 FlanT5: FLAN-T5.ipynb
 
-[2] Combine all automated CADs with manual CADs: training data prepping.ipynb which will create the paired files (included in the emnlp_data/ folder)
+[2] Combine all automated CADs with manual CADs: training data prepping.ipynb which will create the paired files (automated CADs included in the 'data' folder)
 
 [3] Model training
 
 Sexism: sexism run models.ipynb
 Hate speech: hatespeech run models.ipynb
 
-Running these scripts will also use the trained models to predict labels for the test sets which are saved to results/intermediate/
+Running these scripts will also use the trained models to predict labels for the test sets which are saved to 'results/intermediate/'
 
 [4] Baselines
 ChatGPT: chatgpt fewshot labeling.ipynb
