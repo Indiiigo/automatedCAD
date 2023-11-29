@@ -60,7 +60,8 @@ OOD2	https://github.com/ellamguest/online-misogyny-eacl2021/tree/main/data
 
 OOD3	https://github.com/rewire-online/edos
 
-Hatecheck (HC)	https://github.com/paul-rottger/hatecheck-data
+Hatecheck (HC)	https://github.com/paul-rottger/hatecheck-data (filtered for only instances that target 'women')
+
 
 #### hate speech
 
