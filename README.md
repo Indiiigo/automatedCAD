@@ -1,6 +1,6 @@
 # Automatically Generating Counterfactually Augmented Data (CAD)
 
-This repository contains materials automatically generate CAD using Polyjuice, ChatGPT, and Flan-T5 and compare these against manual CAD wrt efficacy as training data, particularly for increasing out-of-domain generaizability of sexism and hate speech detection models. Detailed information can be found in our paper:
+This repository contains materials to automatically generate CAD using Polyjuice, ChatGPT, and Flan-T5 and compare these against manual CAD wrt efficacy as training data, particularly for increasing out-of-domain generalizability of sexism and hate speech detection models. Detailed information can be found in our paper:
 
 *Sen, I., Assenmacher, D., Samory, M., Augenstein, I., Aalst, W.V., & Wagner, C. (2023). [People Make Better Edits: Measuring the Efficacy of LLM-Generated Counterfactually Augmented Data for Harmful Language Detection.](https://arxiv.org/abs/2311.01270) ArXiv, abs/2311.01270. To Appear at EMNLP'23*
 
@@ -47,6 +47,9 @@ Download the code from https://github.com/kawine/dataset_difficulty
 Obtain the train-test data using 7a
 Run the code in autocad_vinfo_commands.txt
 
+### MODELS
+
+You can find our best-performing Flan-T5 and RoBERTa models on Huggingface Hub: https://huggingface.co/AutoCAD
 
 ### LINKS TO EXTERNAL DATASETS
 
